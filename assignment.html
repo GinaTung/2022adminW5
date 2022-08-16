@@ -14,93 +14,150 @@
 </head>
 
 <body>
-  <div class="answer">
-    <div class="answer-menu-left">
-      <div class="menu-content">
+  <div class="container">
+    <div class="answer-adminhome">
+      <div class="answer-menu">
         <div class="logo">
-          <a href="index.html"><img src="./assets/images/logo-ANSWER.svg" alt="logo"></a>
+          <a href="index.html"> <img src="./assets/images/logo-ANSWER.svg" alt=""></a>
         </div>
-        <ul class="menu-list list-unstyled">
-          <li><span class="material-icons">
+
+        <ul class="nav flex-column">
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
               assessment
             </span>
-            <a href="#">Dashboard</a>
+            <a class="nav-link " aria-current="page" href="#">Dashboard</a>
           </li>
-          <li><span class="material-icons">
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
               question_answer
-            </span><a href="#">Question</a></li>
-          <li><span class="material-icons">
+            </span>
+            <a class="nav-link " href="#">Question</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
               assignment
-            </span><a href="assignment.html">Assignment</a></li>
-          <li><span class="material-icons">
+            </span>
+            <a class="nav-link " href="assignment.html">Assignment</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
               video_library
-            </span><a href="#">Course</a></li>
-          <li><span class="material-icons">
-              people
-            </span><a href="#">Admin</a></li>
-          <li><span class="material-icons">
+            </span>
+            <a class="nav-link " href="#">Course</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              supervisor_account
+            </span>
+            <a class="nav-link " href="#">Admin</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
               settings
-            </span><a href="#">Settings</a></li>
+            </span>
+            <a class="nav-link " href="#">Settings</a>
+          </li>
         </ul>
+        <div class="answer-memberarea d-flex align-items-center">
+          <a href="#"><img src="./assets/images/andychen.jpeg" alt="andychen"></a>
+          <ul class="memberdata list-unstyled d-flex flex-column align-items-start">
+            <li>Andy Chen</li>
+            <li>
+              <a href="mailto:>andy0401@mail.com">andy0401@mail.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul class="menu-bottom list-unstyled">
-        <li> <img src="./assets/images/andychen.jpeg" alt="andychen"></li>
 
-        <li class="menu-bottom-content">
-          <span class="fz-style1">Andy Chen</span>
-          <span class="fz-style2">andy0401@mail.com</span>
-        </li>
-      </ul>
+      <div class="assignment">
+    <div class="container">
+        <div class="assignment-top d-flex justify-content-between">
+            <ul class=" nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="assignment.html">Assignment</a>
+                </li>
+                <li class="nav-item dropdown nav-ml-1">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">All
+                        Courses</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Course1</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="assignment-right">
+                <a href="#">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        notifications_active
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="assignment-content">
+            <ul class=" nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">All (4)</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Course1</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                            <small>And some small print.</small>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                    </div>
+                </div>
+                <div class="col-8 ">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">...</div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">...
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            ...</div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <h3>Assignment</h3>
+
+</div>
+
+    </div>
+
+    <!-- <footer class="footer">
+          footer
+        </footer> -->
   </div>
 
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav> -->
 
-
-
-  <!-- <footer class="footer">
-      footer
-    </footer> -->
 
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>

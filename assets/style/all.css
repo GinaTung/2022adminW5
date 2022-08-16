@@ -11563,6 +11563,23 @@ fieldset:disabled .btn {
   }
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
@@ -11570,86 +11587,115 @@ fieldset:disabled .btn {
   margin-top: 32px;
 }
 
-a {
-  text-decoration: none;
+.container {
+  margin: 0;
+  max-width: 1280px;
+  padding: 0;
 }
 
-.answer {
+.answer-adminhome {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.answer-menu-left {
+.answer-menu {
+  width: 23.125%;
   background: #F8F9FA;
-  max-width: 296px;
-  padding: 32px 0;
 }
 
-.answer-menu-left .menu-content {
-  margin-bottom: 300px;
+.answer-menu .nav-item {
+  padding-left: 26px;
 }
 
-.answer-menu-left .menu-content .logo {
-  padding-left: 32px;
-}
-
-.answer-menu-left .menu-content .menu-list li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 31px;
-  margin-bottom: 26px;
-}
-
-.answer-menu-left .menu-content .menu-list li:hover {
+.answer-menu .nav-item:hover {
   border-left: 4px solid #198754;
-  color: #198754;
 }
 
-.answer-menu-left .menu-content .menu-list li a {
-  color: black;
-  margin-left: 18px;
-  display: block;
+.answer-menu .nav-item .nav-link {
+  color: #212529;
+  padding: 13px 0 13px 16px;
 }
 
-.answer-menu-left .menu-content .menu-list li a:hover {
+.answer-menu .nav-item .nav-link:hover {
   color: #198754;
 }
 
 .logo {
-  margin-bottom: 48px;
+  padding: 32px;
 }
 
-.menu-bottom {
+.answer-memberarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 32px;
+  padding: 32px;
 }
 
-.menu-bottom img {
+.answer-memberarea img {
   width: 40px;
   height: 40px;
   border-radius: 24px;
-  vertical-align: middle;
-  margin-right: 16px;
 }
 
-.fz-style1 {
-  font-size: 16px;
-  line-height: 1.5;
+.answer-memberarea .memberdata {
+  margin-bottom: 0;
 }
 
-.fz-style2 {
+.answer-memberarea .memberdata li {
+  margin-left: 16px;
+}
+
+.answer-memberarea .memberdata li a {
   font-size: 14px;
-  line-height: 2;
+  line-height: 24px;
+}
+
+.assignment {
+  width: 76.875%;
+}
+
+.assignment-top {
+  padding: 32px;
+  padding-bottom: 44px;
+}
+
+.assignment-top .nav-item .nav-link {
+  color: #212529;
+  padding: 0;
+}
+
+.assignment-top .nav-item .nav-link:hover {
+  color: #198754;
+}
+
+.nav-ml-1 {
+  margin-left: 50px;
+}
+
+.assignment-right a {
+  color: #212529;
+}
+
+.assignment-right a:hover {
+  color: #198754;
+}
+
+.assignment-content {
+  padding: 32px;
+}
+
+.assignment-content .nav-item {
+  margin-bottom: 6px;
+}
+
+.assignment-content .nav-item .nav-link {
+  color: #212529;
+  padding: 0;
+}
+
+.assignment-content .nav-item .nav-link:hover {
+  color: #198754;
 }
 
 /*# sourceMappingURL=all.css.map */
