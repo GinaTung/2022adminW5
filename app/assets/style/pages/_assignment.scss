@@ -27,7 +27,7 @@
     }
 }
 .assignment-content{
-padding: 32px;
+padding: 0 32px 32px 32px;
 
     .nav-item{
         margin-bottom: 6px;
@@ -39,4 +39,61 @@ padding: 32px;
             }
         }
     }
+}
+.list-group-item.active{
+    background: #F8F9FA;
+    color:#212529;
+    border: 1px solid #CED4DA;
+    &:hover{
+        color: #198754;
+    }
+}
+.list-group-item{
+    padding: 12px;
+}
+.fz-font-1{
+    font-size: 12px;
+}   
+.fz-font-2{
+    font-size: 14px;
+}
+.fz-font-3{
+    font-size: 16px;
+}
+.fw-font-1{
+    font-weight: 900;
+}
+.fw-font-2{
+    font-weight: 600;
+}
+.co-font-1{
+    color: #6C757D;
+}
+.lh-font-1{
+    line-height: 21px;
+}
+.row > * {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.spacer-m-1{
+    margin: 0;
+}
+.spacer-mb-1{
+    margin-bottom: 17px;
+}
+.spacer-ms-1{
+    margin: 0 16px;
+}
+.card-body{
+    padding: 16px;
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 24px;
+    }
+}
+.bd-bm-1{
+    border-bottom: 1px solid #CED4DA;
+    padding-bottom: 16px;
 }
