@@ -1,0 +1,42 @@
+.assignment{
+    width: 76.875%;
+}
+.assignment-top{
+    padding: 32px;
+    padding-bottom: 44px;
+        .nav-item{
+            .nav-link{
+                color:#212529;
+                padding:0 ;
+                &:hover{
+                    color: #198754;
+                }
+            }
+        }
+
+}
+.nav-ml-1{
+    margin-left: 50px;
+}
+.assignment-right{
+    a{
+        color:#212529;
+        &:hover{
+            color: #198754;
+        }
+    }
+}
+.assignment-content{
+padding: 32px;
+
+    .nav-item{
+        margin-bottom: 6px;
+        .nav-link{
+            color:#212529;
+            padding:0 ;
+            &:hover{
+                color: #198754;
+            }
+        }
+    }
+}

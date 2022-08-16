@@ -1,0 +1,48 @@
+.answer-adminhome{
+    display: flex;
+}
+.answer-menu{
+    width: 23.125%;
+    background: #F8F9FA;
+    .nav-item{
+        padding-left: 26px;
+        &:hover{
+            border-left: 4px solid #198754;
+            
+        }
+        .nav-link{
+            color:#212529;
+            padding: 13px 0 13px 16px ;
+    
+            &:hover{
+                color: #198754;
+            }
+        }
+    }
+}
+.logo{
+    padding: 32px;
+}
+
+
+.answer-memberarea{
+    display: flex;
+    padding: 32px;
+
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 24px;
+    }
+    .memberdata{
+        margin-bottom: 0;
+
+        li{
+            margin-left: 16px;
+            a{
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}

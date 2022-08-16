@@ -4,4 +4,82 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<h3>Assignment</h3>
+<div class="assignment">
+    <div class="container">
+        <div class="assignment-top d-flex justify-content-between">
+            <ul class=" nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="assignment.html">Assignment</a>
+                </li>
+                <li class="nav-item dropdown nav-ml-1">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">All
+                        Courses</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Course1</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="assignment-right">
+                <a href="#">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        notifications_active
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="assignment-content">
+            <ul class=" nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">All (4)</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Course1</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                            <small>And some small print.</small>
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+                    </div>
+                </div>
+                <div class="col-8 ">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">...</div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">...
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            ...</div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
