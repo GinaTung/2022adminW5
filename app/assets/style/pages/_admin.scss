@@ -27,8 +27,44 @@
     }
 }
 .admin-content{
-    padding: 32px;
+    padding: 0 32px 0 32px;
+    font-size: 16px;
+}
+.arrow-icon{
+    width: 12px;
+    height: 12px;
 }
 .admin-pagination{
     padding: 32px;
+}
+.pagination{
+    .page-item{
+        .page-link{
+            color:#212529;
+            border: 1px solid #198754;
+            padding:6px 11.5px ;
+            &:hover{
+                
+                background-color: #198754;
+            }
+        }
+    }
+    .active{
+
+        .page-link{
+            background-color: #fff;
+        }
+    }
+}
+.modal-body{
+    img{
+        width: 141px;
+        height: 141px;
+    }
+    .model-body-content{
+        width: 275px;
+        p{
+            margin-bottom: 0;
+        }
+    }
 }
