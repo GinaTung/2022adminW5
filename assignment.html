@@ -111,7 +111,7 @@
                     </ul>
                 </li>
             </ul>
-            <div class="row">
+            <div class="row row-collapse">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-home-list"
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <div class="col-8 ">
-                    <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-content " id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                             aria-labelledby="list-home-list">
                             <div class="card mb-3">
@@ -181,7 +181,7 @@
                                         <div class="flex-shrink-0">
                                             <img src="./assets/images/andychen.jpeg" alt="andychen">
                                         </div>
-                                        <div class="flex-grow-1 ms-3 bd-bm-1 spacer-mb-1">
+                                        <div class="flex-grow-1 ms-3 bd-bm-1 ">
 
                                             <p class="spacer-m-1 fw-font-1 fz-font-3">Emily Wang</p>
                                             <h5 class="spacer-m-1 fz-font-1 fw-font-1 mb-3">10:38 AM (4 hours ago)
@@ -201,6 +201,10 @@
                                                 download="HW-2-David.zip">HW-2-David.zip</a>
                                         </div>
                                     </div>
+
+
+                                </div>
+                                <div class="card-body card-admin">
                                     <div class="d-flex">
                                         <div class=" flex-shrink-0">
                                             <img src="./assets/images/andychen.jpeg" alt="andychen">
@@ -242,13 +246,16 @@
                                     </div>
 
                                 </div>
-                                <div class="collapse " id="collapseExample">
-                                    <div id="editor" class="editor">This is some sample content.</div>
-                                    <ul class="edit-buttons d-flex justify-content-end list-unstyled me-4 mb-3">
+                                <div class="collapse admin-collapse " id="collapseExample">
+                                    <div id="editor" class="editor admin-editor">This is some sample content.</div>
+                                    <ul class="edit-buttons d-flex justify-content-end list-unstyled me-4 mb-3 mt-3">
                                         <li><button type="button"
-                                                class="btn btn-outline-success edit-cancel">Cancel</button></li>
-                                        <li><button type="button" class="btn btn-success ms-3" data-bs-toggle="modal"
-                                                data-bs-target="#staticBackdrop">Reply</button></li>
+                                                class="btn btn-outline-success edit-cancel">Cancel</button>
+                                        </li>
+                                        <li><button type="button" class="btn btn-success ms-3" data-bs-toggle="collapse"
+                                                href="#collapseExample" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample">Reply</button>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -256,20 +263,20 @@
 
                         </div>
                         <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">...
+                            aria-labelledby="list-profile-list">...2
                         </div>
                         <div class="tab-pane fade" id="list-messages" role="tabpanel"
                             aria-labelledby="list-messages-list">
-                            ...</div>
+                            ...3</div>
                         <div class="tab-pane fade" id="list-settings" role="tabpanel"
                             aria-labelledby="list-settings-list">
-                            ...</div>
+                            ...4</div>
                     </div>
 
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex justify-content-end admin-btn">
                         <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
-                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample"
-                            role="button" aria-expanded="false" aria-controls="collapseExample">Reply</button>
+                        <!-- <button type="button" class="btn btn-success admin-reply ms-3">Reply</button> -->
+                        <button type="button" class="btn btn-success ms-3 admin-reply">Reply</button>
                     </div>
 
                 </div>
