@@ -1,0 +1,34 @@
+.admin{
+    width: 76.875%;
+}
+.admin-top{
+    padding: 32px;
+    padding-bottom: 44px;
+        .nav-item{
+            .nav-link{
+                color:#212529;
+                padding:0 ;
+                &:hover{
+                    color: #198754;
+                }
+            }
+        }
+
+}
+.nav-ml-1{
+    margin-left: 50px;
+}
+.admin-right{
+    a{
+        color:#212529;
+        &:hover{
+            color: #198754;
+        }
+    }
+}
+.admin-content{
+    padding: 32px;
+}
+.admin-pagination{
+    padding: 32px;
+}

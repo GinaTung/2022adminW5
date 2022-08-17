@@ -1,0 +1,152 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="admin">
+    <div class="container">
+        <div class="admin-top d-flex justify-content-between">
+            <ul class=" nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.html">Admin</a>
+                </li>
+                <li class="nav-item dropdown nav-ml-1 ">
+                    <a href="#" class="nav-link d-flex align-items-center" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo"> <span class="material-icons">
+                            add
+                        </span>Add New Admin</a>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Message:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="admin-right">
+                <a href="#">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        notifications_active
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="admin-content">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="col-1">ID</th>
+                        <th scope="col" class="col-3">Name</th>
+                        <th scope="col" class="col-5">Email</th>
+                        <th scope="col" class="col-1">Verified</th>
+                        <th scope="col" class="col-3"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td class="text-end"><span class="material-icons px-1">
+                                visibility</span><span class="material-icons">edit
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td class="text-end"><span class="material-icons px-1">
+                                visibility</span><span class="material-icons">edit
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td class="text-end"><span class="material-icons px-1">
+                                visibility</span><span class="material-icons">edit
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Sabrina Stephenson</td>
+                        <td>sabrina.stephenson@mail.com</td>
+                        <td>yes</td>
+                        <td class="text-end"><span class="material-icons px-1">
+                                visibility</span><span class="material-icons">edit
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td class="text-end"><span class="material-icons px-1">
+                                visibility</span><span class="material-icons">edit
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#6</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@mdo</td>
+                        <td class="text-end">
+                            <span class="material-icons px-1">
+                                visibility</span>
+                            <span class="material-icons">edit
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <nav aria-label="..." class="admin-pagination d-flex justify-content-end">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

@@ -39,6 +39,16 @@ padding: 0 32px 32px 32px;
             }
         }
     }
+    .assignment-chevron{
+        li{
+            a{
+                color:#212529;
+                &:hover{
+                    color: #198754;
+                }
+            }
+        }
+    }
 }
 .list-group-item.active{
     background: #F8F9FA;
