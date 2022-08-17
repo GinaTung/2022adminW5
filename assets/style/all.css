@@ -4,6 +4,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11570,6 +11572,10 @@ fieldset:disabled .btn {
           box-sizing: border-box;
 }
 
+body {
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",ROBOTO MONO, Lato, "Helvetica Neue", Arial, sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -11623,7 +11629,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 32px;
+  padding: 362px 32px 32px 32px;
 }
 
 .answer-memberarea img {
@@ -11694,6 +11700,14 @@ a {
 }
 
 .assignment-content .nav-item .nav-link:hover {
+  color: #198754;
+}
+
+.assignment-content .assignment-chevron li a {
+  color: #212529;
+}
+
+.assignment-content .assignment-chevron li a:hover {
   color: #198754;
 }
 
@@ -11773,6 +11787,44 @@ a {
 
 .ck-editor__editable {
   min-height: 263px;
+}
+
+.admin {
+  width: 76.875%;
+}
+
+.admin-top {
+  padding: 32px;
+  padding-bottom: 44px;
+}
+
+.admin-top .nav-item .nav-link {
+  color: #212529;
+  padding: 0;
+}
+
+.admin-top .nav-item .nav-link:hover {
+  color: #198754;
+}
+
+.nav-ml-1 {
+  margin-left: 50px;
+}
+
+.admin-right a {
+  color: #212529;
+}
+
+.admin-right a:hover {
+  color: #198754;
+}
+
+.admin-content {
+  padding: 32px;
+}
+
+.admin-pagination {
+  padding: 32px;
 }
 
 /*# sourceMappingURL=all.css.map */
