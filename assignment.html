@@ -10,6 +10,7 @@
   </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -165,7 +166,7 @@
                     <div class="tab-content " id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                             aria-labelledby="list-home-list">
-                            <div class="card mb-3">
+                            <div class="card ">
                                 <ul class="card-header list-unstyled d-flex justify-content-between align-items-center">
                                     <li>
                                         <h5 class="spacer-m-1 fz-font-1 fw-font-1">Chapter Assignment 2 / HTML&CSS</h5>
@@ -181,7 +182,7 @@
                                         <div class="flex-shrink-0">
                                             <img src="./assets/images/emilywang.jpeg" alt="emilywang">
                                         </div>
-                                        <div class="flex-grow-1 ms-3 bd-bm-1 ">
+                                        <div class="flex-grow-1 ms-2 bd-bm-1 ">
 
                                             <p class="spacer-m-1 fw-font-1 fz-font-3">Emily Wang</p>
                                             <h5 class="spacer-m-1 fz-font-1 fw-font-1 mb-3">10:38 AM (4 hours ago)
@@ -209,7 +210,7 @@
                                         <div class=" flex-shrink-0">
                                             <img src="./assets/images/andychen.jpeg" alt="andychen">
                                         </div>
-                                        <div class="flex-grow-1 ms-3">
+                                        <div class="flex-grow-1 ms-2">
 
                                             <ul
                                                 class="card-body-editer list-unstyled d-flex justify-content-between spacer-m-1">
@@ -219,9 +220,11 @@
                                                         ago)
                                                     </h5>
                                                 </li>
-                                                <li><span class="material-icons ">
+                                                <li>
+                                                    <span class="material-icons-outlined">
                                                         star_rate
-                                                    </span><span class="material-icons spacer-ms-1">
+                                                    </span>
+                                                    <span class="material-icons spacer-ms-1">
                                                         edit
                                                     </span>
                                                 </li>
@@ -231,7 +234,7 @@
                                                 sits on the same line that a, b, c and d sit on. There is space below
                                                 that line for the descenders you find on letters like g, j, p and q.
                                                 <br>You
-                                                can: <br>　• adjust the <code
+                                                can: <br>• adjust the <code
                                                     class="text-success bg-light px-1 rounded-1 font-mono">vertical-align</code>
                                                 of the image to position it
                                                 elsewhere
@@ -246,21 +249,20 @@
                                     </div>
 
                                 </div>
-                                <div class="collapse admin-collapse " id="collapseExample">
-                                    <div id="editor" class="editor admin-editor">This is some sample content.</div>
-                                    <ul class="edit-buttons d-flex justify-content-end list-unstyled me-4 mb-3 mt-3">
-                                        <li><button type="button"
-                                                class="btn btn-outline-success edit-cancel">Cancel</button>
-                                        </li>
-                                        <li><button type="button" class="btn btn-success ms-3" data-bs-toggle="collapse"
-                                                href="#collapseExample" role="button" aria-expanded="false"
-                                                aria-controls="collapseExample">Reply</button>
-                                        </li>
-                                    </ul>
-                                </div>
 
                             </div>
-
+                            <div class="collapse admin-collapse " id="collapseExample">
+                                <div id="editor" class="editor admin-editor">Reply an answer…</div>
+                                <ul class="edit-buttons d-flex justify-content-end list-unstyled me-4 mb-3 mt-3">
+                                    <li><button type="button"
+                                            class="btn btn-outline-success edit-cancel">Cancel</button>
+                                    </li>
+                                    <li><button type="button" class="btn btn-success ms-3" data-bs-toggle="collapse"
+                                            href="#collapseExample" role="button" aria-expanded="false"
+                                            aria-controls="collapseExample">Reply</button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="list-profile" role="tabpanel"
                             aria-labelledby="list-profile-list">...2
@@ -274,7 +276,7 @@
 
                     </div>
 
-                    <div class="d-flex justify-content-end admin-btn">
+                    <div class="d-flex justify-content-end admin-btn mt-3">
                         <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
                         <!-- <button type="button" class="btn btn-success admin-reply ms-3">Reply</button> -->
                         <button type="button" class="btn btn-success ms-3 admin-reply">Reply</button>

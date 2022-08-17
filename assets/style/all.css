@@ -11573,7 +11573,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",ROBOTO MONO, Lato, "Helvetica Neue", Arial, sans-serif;
+  font-family: Lato, ROBOTO MONO,-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -11820,11 +11820,44 @@ a {
 }
 
 .admin-content {
-  padding: 32px;
+  padding: 0 32px 0 32px;
+  font-size: 16px;
+}
+
+.arrow-icon {
+  width: 12px;
+  height: 12px;
 }
 
 .admin-pagination {
   padding: 32px;
+}
+
+.pagination .page-item .page-link {
+  color: #212529;
+  border: 1px solid #198754;
+  padding: 6px 11.5px;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #198754;
+}
+
+.pagination .active .page-link {
+  background-color: #fff;
+}
+
+.modal-body img {
+  width: 141px;
+  height: 141px;
+}
+
+.modal-body .model-body-content {
+  width: 275px;
+}
+
+.modal-body .model-body-content p {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=all.css.map */
