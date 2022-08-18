@@ -109,3 +109,10 @@
 .ck-editor__editable {
     min-height: 263px;
 }
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar{
+    border-bottom: none;
+    border-color: #DFDFDF;
+}
+.ck.ck-editor_main>.ck-editor_editable:not(.ck-focused){
+    border-color: #DFDFDF;
+}
