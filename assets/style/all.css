@@ -11789,6 +11789,15 @@ a {
   min-height: 263px;
 }
 
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+  border-bottom: none;
+  border-color: #DFDFDF;
+}
+
+.ck.ck-editor_main > .ck-editor_editable:not(.ck-focused) {
+  border-color: #DFDFDF;
+}
+
 .admin {
   width: 76.875%;
 }
@@ -11858,6 +11867,31 @@ a {
 
 .modal-body .model-body-content p {
   margin-bottom: 0;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.fz-font-4 {
+  font-size: 32px;
+}
+
+.spacer-mb-0 {
+  margin-bottom: 0;
+}
+
+.form-control {
+  background: #F8F9FA;
+}
+
+.modal-body-top {
+  border-bottom: 1px solid #CED4DA;
+}
+
+.img-size {
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=all.css.map */
