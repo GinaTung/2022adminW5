@@ -2,29 +2,39 @@
     margin-left: 296px;
 }
 .answer-menu{
-    width: 296px;
-    height: auto;
+    min-width: 296px;
+    min-height: 100vh;
     position: fixed;
     top: 0;
     left:0;
     background: #F8F9FA;
     .nav-item{
-        padding-left: 28px;
-        &:hover{
-            border-left: 4px solid #198754;
-        }
+        // padding-left: 32px;
         .nav-link{
+            position: relative;
             color:#212529;
-            padding: 13px 0 13px 16px ;
-    
+            padding: 12px 32px;
+
             &:hover{
                 color: #198754;
+            }
+            &:active{
+                color: #198754;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 4px;
+                    height: 62px;
+                    border-left: 4px solid #198754;
+                  }
             }
         }
     }
 }
+
 .logo{
-    padding: 32px;
+    padding: 32px 32px 16px 32px;
 }
 
 
