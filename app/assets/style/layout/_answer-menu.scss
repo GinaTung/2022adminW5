@@ -1,14 +1,17 @@
 .answer-adminhome{
-    display: flex;
+    margin-left: 296px;
 }
 .answer-menu{
-    width: 23.125%;
+    width: 296px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left:0;
     background: #F8F9FA;
     .nav-item{
         padding-left: 28px;
         &:hover{
             border-left: 4px solid #198754;
-            
         }
         .nav-link{
             color:#212529;
@@ -27,8 +30,7 @@
 
 .answer-memberarea{
     display: flex;
-    padding: 362px 32px 0 32px;
-
+    padding: 0 32px;
     img{
         width: 40px;
         height: 40px;
@@ -36,7 +38,6 @@
     }
     .memberdata{
         margin-bottom: 0;
-
         li{
             margin-left: 16px;
             a{

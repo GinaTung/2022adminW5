@@ -1,6 +1,7 @@
-.assignment{
-    width: 76.875%;
-}
+// .assignment{
+//     // width: 76.875%;
+//     margin-left: 296px;
+// }
 .assignment-top{
     padding: 32px;
     padding-bottom: 44px;
@@ -115,4 +116,9 @@
 }
 .ck.ck-editor_main>.ck-editor_editable:not(.ck-focused){
     border-color: #DFDFDF;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
