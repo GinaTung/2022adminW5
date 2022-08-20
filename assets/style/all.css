@@ -11611,6 +11611,10 @@ img {
   padding: 12px 32px;
 }
 
+.answer-menu .nav-item .nav-link:hover {
+  color: #198754;
+}
+
 .answer-menu .nav-item .nav-link:active {
   color: #198754;
 }
