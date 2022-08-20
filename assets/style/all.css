@@ -11580,6 +11580,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
@@ -11587,20 +11592,16 @@ a {
   margin-top: 32px;
 }
 
-.container {
-  margin: 0;
-  max-width: 1216px;
-  padding: 32px 0;
-}
-
 .answer-adminhome {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: 296px;
 }
 
 .answer-menu {
-  width: 23.125%;
+  width: 296px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: #F8F9FA;
 }
 
@@ -11629,7 +11630,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 362px 32px 0 32px;
+  padding: 0 32px;
 }
 
 .answer-memberarea img {
@@ -11654,10 +11655,6 @@ a {
 
 .answer-memberarea .memberdata li a:hover {
   color: #198754;
-}
-
-.assignment {
-  width: 76.875%;
 }
 
 .assignment-top {
@@ -11798,8 +11795,17 @@ a {
   border-color: #DFDFDF;
 }
 
-.admin {
-  width: 76.875%;
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .admin-top {

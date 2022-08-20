@@ -15,62 +15,62 @@
 </head>
 
 <body>
-  <div class="answer-adminhome">
-    <div class="answer-menu container">
+  <div class="answer-adminhome vh-100">
+    <div class="answer-menu">
       <div class="logo">
         <a href="index.html"> <img src="./assets/images/logo-ANSWER.svg" alt=""></a>
       </div>
-
-      <ul class="nav flex-column">
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            assessment
-          </span>
-          <a class="nav-link " aria-current="page" href="#">Dashboard</a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            question_answer
-          </span>
-          <a class="nav-link " href="#">Question</a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            assignment
-          </span>
-          <a class="nav-link " href="assignment.html">Assignment</a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            video_library
-          </span>
-          <a class="nav-link " href="#">Course</a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            supervisor_account
-          </span>
-          <a class="nav-link " href="admin.html">Admin</a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <span class="material-icons">
-            settings
-          </span>
-          <a class="nav-link " href="#">Settings</a>
-        </li>
-      </ul>
-      <div class="answer-memberarea d-flex align-items-center">
-        <a href="#"><img src="./assets/images/andychen.jpeg" alt="andychen"></a>
-        <ul class="memberdata list-unstyled d-flex flex-column align-items-start">
-          <li>Andy Chen</li>
-          <li>
-            <a href="mailto:>andy0401@mail.com">andy0401@mail.com</a>
+      <div class="d-flex flex-column justify-content-between">
+        <ul class="nav d-flex flex-column">
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              assessment
+            </span>
+            <a class="nav-link " aria-current="page" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              question_answer
+            </span>
+            <a class="nav-link " href="#">Question</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              assignment
+            </span>
+            <a class="nav-link " href="assignment.html">Assignment</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              video_library
+            </span>
+            <a class="nav-link " href="#">Course</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              supervisor_account
+            </span>
+            <a class="nav-link " href="admin.html">Admin</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">
+              settings
+            </span>
+            <a class="nav-link " href="#">Settings</a>
           </li>
         </ul>
+
+        <div class="answer-memberarea d-flex align-items-center">
+          <a href="#"><img src="./assets/images/andychen.jpeg" alt="andychen"></a>
+
+          <ul class="memberdata list-unstyled d-flex flex-column align-items-start">
+            <li>Andy Chen</li>
+            <li>
+              <a href="mailto:>andy0401@mail.com">andy0401@mail.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-
-
 
     </div>
     <div class="admin">
@@ -155,10 +155,12 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th scope="col" class="col-1 d-flex">
-                            <span>ID</span>
-                            <img class="arrow-icon" src="./assets/images/baseline_arrow_downward_black_18dp.png"
-                                alt="arrow_downward">
+                        <th scope="col" class="col-1">
+                            <div class="d-flex align-items-center">
+                                <span>ID</span>
+                                <img class="arrow-icon" src="./assets/images/baseline_arrow_downward_black_18dp.png"
+                                    alt="arrow_downward">
+                            </div>
                         </th>
                         <th scope="col" class="col-3">Name</th>
                         <th scope="col" class="col-5">Email</th>
@@ -233,7 +235,7 @@
                     </tr>
                     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                         aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-body d-flex">
                                     <img src="./assets/images/emir.jpeg" alt="emir">
