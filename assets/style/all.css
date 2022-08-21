@@ -11597,13 +11597,11 @@ img {
 }
 
 .aside {
-  height: 90vh;
   padding-bottom: 32px;
 }
 
 .answer-menu {
-  min-width: 296px;
-  min-height: 100vh;
+  width: 296px;
   position: fixed;
   top: 0;
   left: 0;
@@ -11852,7 +11850,7 @@ img {
 
 .arrow-icon {
   width: 12px;
-  height: 12px;
+  color: #198754;
 }
 
 .admin-pagination {
@@ -11894,8 +11892,20 @@ img {
   font-size: 32px;
 }
 
+.fz-font-5 {
+  font-size: 20px;
+}
+
 .spacer-mb-0 {
   margin-bottom: 0;
+}
+
+.spacer-ml-0 {
+  margin-left: 10px;
+}
+
+.spacer-p-0 {
+  padding: 0;
 }
 
 .form-control {
@@ -11925,6 +11935,18 @@ img {
 
 .collapsed .expand_less {
   display: none;
+}
+
+.col-form-label {
+  padding: 4px 0;
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+
+.text-co-1 {
+  color: #CED4DA;
 }
 
 /*# sourceMappingURL=all.css.map */
