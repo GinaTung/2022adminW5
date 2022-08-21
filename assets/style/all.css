@@ -11597,6 +11597,7 @@ img {
 }
 
 .aside {
+  height: 90vh;
   padding-bottom: 32px;
 }
 
