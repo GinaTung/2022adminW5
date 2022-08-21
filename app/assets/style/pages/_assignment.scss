@@ -10,7 +10,7 @@
                 color:#212529;
                 padding:0 ;
                 &:hover{
-                    color: #198754;
+                    color: $success;
                 }
             }
         }
@@ -23,7 +23,7 @@
     a{
         color:#212529;
         &:hover{
-            color: #198754;
+            color: $success;
         }
     }
 }
@@ -35,7 +35,7 @@
             color:#212529;
             padding:0 ;
             &:hover{
-                color: #198754;
+                color: $success;
             }
         }
     }
@@ -44,7 +44,7 @@
             a{
                 color:#212529;
                 &:hover{
-                    color: #198754;
+                    color: $success;
                 }
             }
         }
@@ -55,7 +55,7 @@
     color:#212529;
     border: 1px solid #CED4DA;
     &:hover{
-        color: #198754;
+        color: $success;
     }
 }
 .list-group-item{

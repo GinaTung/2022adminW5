@@ -20,17 +20,17 @@
             padding: 12px 32px;
 
             &:hover{
-                color: #198754;
+                color: $success;
             }
             &:active{
-                color: #198754;
+                color: $success;
                 &::before{
                     content: "";
                     position: absolute;
                     left: 0;
                     width: 4px;
                     height: 62px;
-                    border-left: 4px solid #198754;
+                    border-left: 4px solid $success;
                   }
             }
         }
@@ -59,7 +59,7 @@
                 line-height: 24px;
                 color:#212529;
                 &:hover{
-                    color: #198754;
+                    color: $success;
                 }
             }
         }
